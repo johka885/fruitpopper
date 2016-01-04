@@ -18,7 +18,7 @@ body {
   position: absolute;
   background: black;
   top: 0;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 #gamepad {
@@ -83,7 +83,7 @@ body {
 }
 
 .game-block {
-  background: url("http://images.all-free-download.com/images/graphiclarge/juicy_fruit_266912.jpg");
+  background: url("fruits.jpg");
   color: black;
   width: 40px;
   height: 40px;
@@ -175,7 +175,7 @@ body {
 .scorePopup {
   position: absolute;
   color: black;
-  display: none;
+  visibility: hidden;
   font-size: 30px;
   color: #000;
   text-shadow: -1px 1px 8px #dd2, 1px -1px 8px #cc6;
