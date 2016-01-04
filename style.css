@@ -1,0 +1,84 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: -1px;
+  line-height: 1;
+  color: white;
+  
+  overflow: hidden;
+}
+
+#game {
+  background: black;
+  width: 100%;
+  height: 800px;
+  
+  position: absolute;
+  top: 0;
+}
+
+#gamepad {
+  width: 360px;
+  height: 600px;
+  background: navy;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#scoreboard {
+  position: absolute;
+  width: 100%;
+  height: 150px;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+#scoreboard h1 {
+  font-size: 80px;
+  padding: 0;
+  margin: 0;
+}
+
+.score,
+.level,
+.hints {
+  font-size: 25px;
+  margin-right: 25px;
+}
+
+#next-piece,
+#powerup {
+  text-align: center;
+}
+
+#next-piece h2,
+#powerup h2 {
+  font-size: 40px;
+}
+
+#next-piece .next,
+#powerup .powerup {
+  border: 2px solid white;
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+#next-piece .next {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#powerup .powerup {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
