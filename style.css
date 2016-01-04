@@ -9,23 +9,22 @@ body {
   letter-spacing: -1px;
   line-height: 1;
   color: white;
-  
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 #game {
-  background: black;
   width: 100%;
   height: 800px;
-  
   position: absolute;
+  background: black;
   top: 0;
 }
 
 #gamepad {
   width: 360px;
   height: 600px;
-  background: navy;
+  border: 2px solid white;
+  background: white;
   position: absolute;
   top: 150px;
   left: 50%;
@@ -36,7 +35,6 @@ body {
   position: absolute;
   width: 100%;
   height: 150px;
-  padding: 5px 15px;
   text-align: center;
 }
 
@@ -81,4 +79,90 @@ body {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.game-block {
+  background: url("http://images.all-free-download.com/images/graphiclarge/juicy_fruit_266912.jpg");
+  color: black;
+  width: 40px;
+  height: 40px;
+  background-size: 125px;
+  position: absolute;
+}
+
+.big {
+  background-size: 140px;
+  cursor: pointer;
+}
+
+.red-apple {
+  background-position: -9px -3px;
+}
+
+.red-apple.big {
+  background-position: -12px -6px;
+}
+
+.green-apple {
+  background-position: 38px -35px;
+}
+
+.green-apple.big {
+  background-position: 41px -42px;
+}
+
+.cherry {
+  background-position: -48px -34px;
+}
+
+.cherry.big {
+  background-position: -57px -42px;
+}
+
+.strawberry {
+  background-position: -9px 39px;
+}
+
+.strawberry.big {
+  background-position: -12px 42px;
+}
+
+.kiwi {
+  background-position: -9px -37px;
+}
+
+.kiwi.big {
+  background-position: -13px -46px;
+}
+
+.orange {
+  background-position: 41px 37px;
+}
+
+.orange.big {
+  background-position: 44px 41px;
+}
+
+.banana {
+  background-position: -47px 1px;
+}
+
+.banana.big {
+  background-position: -55px -4px;
+}
+
+.perch {
+  background-position: 42px 0px;
+}
+
+.perch.big {
+  background-position: 45px -2px;
+}
+
+.melon {
+  background-position: -48px 38px;
+}
+
+.melon.big {
+  background-position: -56px 39px;
 }
